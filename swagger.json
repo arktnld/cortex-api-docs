@@ -11056,10 +11056,6 @@
       "description": "Manage conversation assignments"
     },
     {
-      "name": "Conversation Labels",
-      "description": "Manage conversation labels"
-    },
-    {
       "name": "Conversations",
       "description": "Conversation management APIs"
     },
@@ -11114,15 +11110,6 @@
   ],
   "x-tagGroups": [
     {
-      "name": "Platform",
-      "tags": [
-        "Accounts",
-        "Account Users",
-        "AgentBots",
-        "Users"
-      ]
-    },
-    {
       "name": "Application",
       "tags": [
         "Account AgentBots",
@@ -11133,7 +11120,6 @@
         "Contacts",
         "Contact Labels",
         "Conversation Assignments",
-        "Conversation Labels",
         "Conversations",
         "Custom Attributes",
         "Custom Filters",
@@ -11147,20 +11133,6 @@
         "Automation Rule",
         "Help Center",
         "Outbound Messages"
-      ]
-    },
-    {
-      "name": "Client",
-      "tags": [
-        "Contacts API",
-        "Conversations API",
-        "Messages API"
-      ]
-    },
-    {
-      "name": "Others",
-      "tags": [
-        "CSAT Survey Page"
       ]
     }
   ]
