@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cortex API — Docs</title>
+    <link rel="icon" href="data:," />
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        max-width: 640px; margin: 10vh auto; padding: 0 24px;
+        line-height: 1.5;
+      }
+      h1 { font-size: 1.6rem; margin-bottom: 4px; }
+      p.sub { color: #888; margin-top: 0; }
+      a.card {
+        display: block; text-decoration: none; color: inherit;
+        border: 1px solid #8884; border-radius: 12px;
+        padding: 16px 20px; margin: 12px 0;
+        transition: border-color .15s, transform .15s;
+      }
+      a.card:hover { border-color: #4f7cff; transform: translateY(-2px); }
+      a.card b { font-size: 1.1rem; }
+      a.card span { display: block; color: #888; font-size: .9rem; margin-top: 2px; }
+    </style>
+  </head>
+  <body>
+    <h1>Cortex API</h1>
+    <p class="sub">Documentação OpenAPI 3.0 — escolha o renderizador</p>
+
+    <a class="card" href="index.html">
+      <b>Redoc</b>
+      <span>Leitura limpa em 3 colunas. Padrão.</span>
+    </a>
+    <a class="card" href="scalar.html">
+      <b>Scalar</b>
+      <span>Moderno, busca + try-it-out.</span>
+    </a>
+    <a class="card" href="swagger.html">
+      <b>Swagger UI</b>
+      <span>Clássico, "Try it out" com requests reais.</span>
+    </a>
+
+    <p class="sub" style="margin-top:32px">
+      Spec: <a href="swagger.json">swagger.json</a>
+    </p>
+  </body>
+</html>
